@@ -2,96 +2,87 @@ html {
     font-family: sans-serif;
 }
 
-html body {
+html > body {
     background: #666666;
-    margin: 0;
+    color: #e0e0e0;
 }
 
-html body img {
-    margin: 0;
+html > body > img {
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
-html body p {
+html > body > p {
+    color: #000000;
     font-size: 24px;
-    padding: 24px 24px 0px 24px;
-    margin: 0;
+    padding: 16px 16px 0px 16px;
 }
 
-html body ul{
+html > body > ul{
     background: #2c2c2c;
     list-style-type: none;
     overflow: hidden;
-    margin: 0;
-    padding: 0;
 }
 
-html body div h1 {
-    padding: 120px 10px;
-    height: 60px;
-    text-align: center;
-    color: #e0e0e0;
+html > body > div > h1 {
     font-size: 64px;
-    margin: 0;
+    height: 60px;
+    padding: 120px 10px;
+    text-align: center;
 }
 
-html body div h1#phonePictureAbout{
-    height: 120px;
-    color: #d3d3d3;
+html > body > div > h1#phonePictureAbout{
+    height: 280px;
 }
 
-html body div h1#phonePictureContact{
-    height: 200px;
-    color: #9c9b9b;
+html > body > div > h1#phonePictureContact{
+    height: 300px;
 }
 
-html body div.picBackdrop{
+html > body > div.picBackdrop{
     background-position: center;
     background-size: cover;
 }
 
-html body div.picBackdrop#bg1{
+html > body > div.picBackdrop#bg1{
     background-image: url("../images/bg1.jpg");
 }
 
-html body div.picBackdrop#contactBackdrop{
+html > body > div.picBackdrop#contactBackdrop{
     background-image: url("../images/Sunset\ In\ Gazebo\ 2.jpg");
 }
 
-html body div.picBackdrop#aboutBackdrop{
+html > body > div.picBackdrop#aboutBackdrop{
     background-image: url("../images/Me\ Hugging\ Dolphin.JPG");
 }
 
-html body ul li {
+html > body > ul > li {
     float: right;
 }
 
-html body ul li a {
+html > body > ul > li > a {
     color: #e0e0e0;
-    font-size: 24px;
     display: block;
+    font-size: 24px;
     padding: 14px 16px;
     text-decoration: none;
 }
 
-html body ul li a.active {
+html > body > ul > li a.active {
     background: #0f465c
 }
 
-html footer {
+html > body > footer {
     background: #2c2c2c;
 }
 
-html footer p a {
+html > body > footer > p > a {
     color: #98bbc9;
 }
 
-html footer p#footText {
-    color: #e0e0e0;
+html > body > footer > p#footText {
     font-size: 16px;
-    text-align: center;
     padding: 20px;
-    margin: 0;
+    text-align: center;
 }
